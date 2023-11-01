@@ -187,21 +187,50 @@ endmodule
 
 ### RTL LOGIC FOR FLIPFLOPS 
 
+SR Flip Flop
+
+![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/23b1dc6b-8fa8-4588-89c1-448cbf8dd16f)
+
+
+JK Flip Flop
+
+![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/56b5add5-1155-4480-bb99-24f26de597fe)
 
 
 
+D Flip Flop
+
+![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/61535ec3-1f49-4dc6-8e42-158445f9bab2)
 
 
+T Flip Flop
+
+![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/155ad9ee-32a1-4271-a311-638287a60247)
 
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
+Waveform for SR:
 
+![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/dca75c05-cd0b-4961-baaa-fc690a7afafb)
 
+Waveform for JK:
 
+![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/eed7ed78-5a32-4c40-b47c-4517bf218613)
+
+Waveform for D:
+
+![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/bdbf4b1a-8d60-43b2-9dd6-8bf44c1d474e)
+
+Waveform for T:
+
+![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/fec0bd25-e6e5-47b3-bbc8-5935150d4350)
 
 
 
 
 ### RESULTS 
+
+Implementation of flipflops using verilog successfully completed.
+
