@@ -102,18 +102,85 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
+1.Use module projname(input,output) to start the Verilog programmming.
+
+2.Assign inputs and outputs using the word input and output respectively.
+
+3.Use defined keywords like wire,assign and required logic gates to represent the boolean expression.
+
+4.Use each output to represnt onre for differnce and the other for borrow.
+
+5.End the verilog program using keyword endmodule.
 
 
 
 ### PROGRAM 
-/*
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: PREETHA.S
+RegisterNumber: 212222230110 
 
+SR Flip Flop
+```
+module Flipflop(s,r,q,Qbar,clk);
+input s,r,clk;
+output reg q,Qbar;
+initial q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+q=s|(q&(~r));
+Qbar=r|(Qbar&(~s));
+end
+endmodule
+```
+JK Flip Flop
+```
+module jkflipflop(k,clk,j,Q,Qbar);
+input k,clk,j;
+output reg Q;
+output reg Qbar;
+initial Q=0;
+initial Qbar=1;
+always @(posedge clk)
+begin
+Q=((~Q)&j)|(Q&~k);
+Qbar=(~Qbar&k)|(Qbar&~j);
+end
+endmodule
+```
+D Flip Flop
 
+```
+module dflipflop(d,clk,q,qbar);
+input d,clk;
+output q,qbar;
+reg q,qbar;
+initial q=0;
+initial qbar=1;
+always @(posedge clk)
+begin 
+q<=d;
+qbar<=~d;
+end
+endmodule
+```
+T Flip Flop
+
+```
+module tflipflop(t,clk,q,qbar);
+input t,clk;
+output q,qbar;
+reg q,qbar;
+initial q=0;
+initial qbar=0;
+always @(posedge clk)
+begin 
+q<=(t&~q)|(~t&q);
+qbar<=~q;
+end
+endmodule
+```
 
 
 
