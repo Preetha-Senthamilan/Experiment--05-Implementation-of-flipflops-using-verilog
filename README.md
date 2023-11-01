@@ -189,24 +189,26 @@ endmodule
 
 SR Flip Flop
 
-![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/23b1dc6b-8fa8-4588-89c1-448cbf8dd16f)
+![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/a19360a8-8990-48d0-8cc5-23a6858c782b)
+
 
 
 JK Flip Flop
 
-![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/56b5add5-1155-4480-bb99-24f26de597fe)
+![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/784d4360-61a3-403e-a79a-0f0a102e9375)
+
 
 
 
 D Flip Flop
 
-![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/61535ec3-1f49-4dc6-8e42-158445f9bab2)
+![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/46e47314-e24a-4f25-a298-7966da9dad73)
+
 
 
 T Flip Flop
 
-![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/155ad9ee-32a1-4271-a311-638287a60247)
-
+![image](https://github.com/Preetha-Senthamilan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119390282/ac1bc003-a819-467e-a30b-bc8c4e9f3fbf)
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
